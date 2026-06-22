@@ -1,5 +1,16 @@
 ---
 layout: default
+title: "Seamus Finn - Resume"
+permalink: /cv/
+---
+
+# Resume
+
+[Download my resume]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+
+**Email:** saf267@cornell.edu  
+**Phone:** +1 914-334-5787---
+layout: default
 title: <Seamus Finn> - Resume
 permalink: /cv/
 ---
