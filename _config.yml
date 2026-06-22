@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Seamus Finn
 description              : Seamus Finn - Projects and CV 
-baseurl                  : /sp26-portfolio-saf267-boop/
+baseurl                  : /sp26-portfolio-seamus-finn/
 
 # Theme and Style
 theme: jekyll-theme-minimal
