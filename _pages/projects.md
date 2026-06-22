@@ -1,18 +1,31 @@
 ---
 layout: default
-title: <Seamus Finn> - Portfolio
+title: "Seamus Finn - Projects"
 permalink: /projects/
 ---
 
-<div class="gallery-container">
-<div class="project-gallery">
-    {% for project in site.projects %}
-      <div class="gallery-item">
-        <a href="{{ project.url | relative_url }}">
-          <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" />
-          <p>{{ project.title}}</p>
+# Projects
+
+<div class="row">
+{% for project in site.projects %}
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 project-card">
+      {% if project.image %}
+      <img
+        src="{{ project.image | relative_url }}"
+        class="card-img-top"
+        alt="{{ project.imagealt | default: project.title }}"
+      >
+      {% endif %}
+
+      <div class="card-body">
+        <h2 class="card-title h4">{{ project.title }}</h2>
+        <p class="card-text">{{ project.description }}</p>
+        <a href="{{ project.url | relative_url }}" class="btn btn-primary">
+          View Project
         </a>
       </div>
-    {% endfor %}
-</div>
+    </div>
+  </div>
+{% endfor %}
 </div>
