@@ -23,7 +23,7 @@ This project focused on designing a usable nutcracker that could generate the re
 ## Part 1: Force and Geometry Analysis
 The first stage of the design used moment equilibrium about the nutcracker pin. This point was selected because it allowed the applied handle force and the nut reaction force to be related through their moment arms.
 
-The distance from the pin to the nut was defined as \(x_1\), while the distance from the pin to the applied user force was defined as \(x_1 + x_2\). Using the required nut-cracking force and the maximum applied user force. Taking the moment about the pin would allow me to find the two values of x_1 and x_2 such that it would balance the forces sufficently. The handle length was selected so that the applied force could generate enough moment to crack the nut. With these lengths found I used the to create the diagram below.
+The distance from the pin to the nut was defined as \(x_1\), while the distance from the pin to the applied user force was defined as \(x_1 + x_2\). Using the required nut-cracking force and the maximum applied user force. Taking the moment about the pin would allow me to find the two values of x_1 and x_2 such that it would balance the forces sufficiently. The handle length was selected so that the applied force could generate enough moment to crack the nut. With these lengths found I used the results to create the diagram below.
 
 This geometry produced a usable design because the user only needed to apply 500 N at each handle while maintaining a 1 cm nut gap.
 
@@ -118,8 +118,7 @@ Using this value of (E), the required area moment of inertia was compared agains
 
 W18 × 106
 
-The W18×106 section was selected because it satisfied the deflection requirement while providing an effective balance between stiffness and mass. Therefore, the final beam selection was based on both the material stiffness of structural steel and the geometric stiffness provided by the selected W-beam cross-section. This beam structure would be shrunk down as to be used for a nutcracker.
-
+The W18×106 section was selected because it satisfied the deflection requirement while providing an effective balance between stiffness and mass. Therefore, the final beam selection was based on both the material stiffness of structural steel and the geometric stiffness provided by the selected W-beam cross-section. The W18×106 section served as an analytical reference for evaluating bending and deflection. These results informed the required geometry and material properties of the final nutcracker design.
 
 ![Final nutcracker beam model]({{ "/assets/images/nutcracker_diagram_2.png" | relative_url }}){: .project-image }
 
