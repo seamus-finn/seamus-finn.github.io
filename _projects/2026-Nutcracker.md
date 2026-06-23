@@ -109,7 +109,7 @@ Y_max = 0.02L
 
 the required area moment of inertia for a selected material can be written as:
 
-I_req = [P a (L² - a²)^(3/2)] / [9√3 E L (0.02L)]
+I_req = [P a (L² - a²)^(3/2)] / [9√3 E L (0.02L)] = 9.67mm⁴
 
 This equation shows that the required cross-section depends heavily on the elastic modulus (E) of the material. A material with a larger elastic modulus requires a smaller area moment of inertia to satisfy the same deflection limit.
 
@@ -117,11 +117,15 @@ Structural steel was selected because it has a high elastic modulus and resists 
 
 E = 200 GPa
 
-Using this value of (E), the required area moment of inertia was compared against available W-beam sections. Based on this comparison, the selected section was:
 
-W18 × 106
-
-The W18×106 section was selected because it satisfied the deflection requirement while providing an effective balance between stiffness and mass. Therefore, the final beam selection was based on both the material stiffness of structural steel and the geometric stiffness provided by the selected W-beam cross-section. The W18×106 section served as an analytical reference for evaluating bending and deflection. These results informed the required geometry and material properties of the final nutcracker design.
+Using the required area moment of inertia calculated above:
+I_req = 9.67 mm⁴
+A solid rectangular cross-section was selected for the nutcracker handle. For a rectangular section, the area moment of inertia is given by:
+I = bh³ / 12
+where b is the width and h is the height of the cross-section. A cross-section of b = 10 mm and h = 12 mm was chosen, giving:
+I = (10)(12³) / 12 = 1,440 mm⁴
+Since 1,440 mm⁴ >> 9.67 mm⁴, this cross-section satisfies the deflection constraint with significant margin. The large ratio confirms that for a handle of this scale, the 2% deflection limit is easily met with a compact, practical cross-section.
+The final design uses a solid rectangular structural steel handle measuring 10 mm × 12 mm in cross-section, with a length of 6.88 cm. This geometry is consistent with a handheld tool and produces a maximum deflection of well under the allowable limit under the applied 500 N load.
 
 ![Final nutcracker beam model]({{ "/assets/images/nutcracker_diagram_2.png" | relative_url }}){: .project-image }
 
