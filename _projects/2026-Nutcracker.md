@@ -64,11 +64,13 @@ x_m = √((L² - a²) / 3)
 where:
 
 * (L) is the length of the handle.
-* (a) is the distance parameter defined by the loading geometry.
+* (a) is the is the length from nut to bolt.
 * (x_m) is the location of maximum deflection.
 
-Using the known handle length and:
+Using the known lengths of 
 
+L = 6.88 
+and
 a = 2 cm
 
 the location of maximum deflection was calculated as:
@@ -90,7 +92,7 @@ Y_max = [P a (L² - a²)^(3/2)] / [9√3 E I L]
 where:
 
 * (P) is the applied force.
-* (a) is the geometric loading parameter.
+* (a) is the length from nut to bolt.
 * (L) is the handle length.
 * (E) is the elastic modulus of the material.
 * (I) is the area moment of inertia of the cross-section.
