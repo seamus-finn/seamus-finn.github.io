@@ -2,6 +2,7 @@
 layout: project
 title: "Sprint Training Advisor"
 description: "A rule-based Python tool that generates sprint and strength sessions from a date-based training progression, applies soreness-based modifications, supports schedule shifts, and logs completed sessions."
+order: 1
 technologies:
   - Python
   - CSV
