@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Nutcracker Design Project: Statics & Mechanics"
-description: Designed a functional nutcracker to meet specified force and usability constraints using statics, moment equilibrium, and beam deflection analysis. The project included force modeling, geometric design, and cross-section optimization.
+description: Designed a functional nutcracker to meet specified force and usability constraints using statics, moment equilibrium, and beam deflection analysis. The project included force modeling, geometric design, and cross-section selection.
 order: 2
 image: assets/images/nutcracker_diagram_1.png
 ---
@@ -26,7 +26,7 @@ The first stage of the design used moment equilibrium about the nutcracker pin. 
 
 The distance from the pin to the nut was defined as \(x_1\), while the distance from the pin to the applied user force was defined as \(x_1 + x_2\). Using the required nut-cracking force and the maximum applied user force. Taking the moment about the pin would allow me to find the two values of x_1 and x_2 such that it would balance the forces sufficiently. The handle length was selected so that the applied force could generate enough moment to crack the nut. With these lengths found I used the results to create the diagram below.
 
-This geometry produced a usable design because the user only needed to apply 500 N at each handle while maintaining a 1 cm nut gap.
+This geometry produced a usable design because the user only needed to apply 500 N at each handle while accommodating a nut with a 1 cm radius.
 
 ![Nutcracker geometry diagram]({{ "/assets/images/nutcracker_diagram_1.png" | relative_url }}){: .project-image }
 
@@ -34,7 +34,7 @@ This geometry produced a usable design because the user only needed to apply 500
 
 ## Part 2: Beam Deflection and Material Selection
 
-The second stage of the design analyzed the elastic deflection of the nutcracker handles. The objective was to select a beam cross-section and material that would keep the vertical deflection below 2% of the beam length while remaining as mass-efficient as possible.
+The second stage of the design analyzed the elastic deflection of the nutcracker handles. The objective was to select a beam cross-section and material that would keep the vertical deflection below 2% of the beam length while while maintaining a compact and practical handle geometry.
 
 The design requirements were:
 
