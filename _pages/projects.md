@@ -7,7 +7,9 @@ permalink: /projects/
 # Projects
 
 <div class="row">
-{% for project in site.projects %}
+{% assign sorted_projects = site.projects | sort: "order" %}
+
+{% for project in sorted_projects %}
   <div class="col-md-6 mb-4">
     <div class="card h-100 project-card">
       {% if project.image %}
