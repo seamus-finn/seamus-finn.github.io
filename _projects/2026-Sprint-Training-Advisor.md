@@ -8,6 +8,7 @@ technologies:
   - datetime
   - pathlib
   - Rule-based logic
+image: assets/images/sprint-training-advisor-terminal.png
 ---
 
 ## Overview
