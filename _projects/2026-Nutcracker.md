@@ -73,7 +73,7 @@ a = 2 cm
 
 the location of maximum deflection was calculated as:
 
-x_m = 3.214 cm
+x_m = 3.80 cm
 
 This value was used to identify the critical location where the handle experiences its largest displacement under the applied load.
 
