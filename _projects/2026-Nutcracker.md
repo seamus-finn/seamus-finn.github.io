@@ -69,7 +69,7 @@ where:
 
 Using the known lengths of 
 
-L = 6.88 
+L = 6.88 cm
 and
 a = 2 cm
 
