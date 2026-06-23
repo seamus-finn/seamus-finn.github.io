@@ -64,7 +64,7 @@ x_m = √((L² - a²) / 3)
 where:
 
 * (L) is the length of the handle.
-* (a) is the is the length from nut to bolt.
+* (a) is the is the length from pin to nut contact.
 * (x_m) is the location of maximum deflection.
 
 Using the known lengths of 
@@ -92,7 +92,7 @@ Y_max = [P a (L² - a²)^(3/2)] / [9√3 E I L]
 where:
 
 * (P) is the applied force.
-* (a) is the length from nut to bolt.
+* (a) is the length from pin to nut contact.
 * (L) is the handle length.
 * (E) is the elastic modulus of the material.
 * (I) is the area moment of inertia of the cross-section.
