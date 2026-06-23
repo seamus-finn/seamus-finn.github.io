@@ -2,6 +2,7 @@
 layout: project
 title: "Nutcracker Design Project: Statics & Mechanics"
 description: Designed a functional nutcracker to meet specified force and usability constraints using statics, moment equilibrium, and beam deflection analysis. The project included force modeling, geometric design, and cross-section optimization.
+order: 2
 image: assets/images/nutcracker_diagram_1.png
 ---
 
