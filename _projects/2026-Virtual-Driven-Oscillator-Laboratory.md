@@ -3,6 +3,7 @@ layout: project
 title: "Virtual Driven Oscillator Laboratory"
 description: "A Python computational physics project modeling free, damped, and driven harmonic oscillations, including numerical integration, resonance analysis, and quality-factor extraction."
 order: 1
+image: assets/images/resonance_curve.png
 technologies:
   - Python
   - NumPy
