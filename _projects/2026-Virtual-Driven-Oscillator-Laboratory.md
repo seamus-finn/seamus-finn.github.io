@@ -41,4 +41,4 @@ The driven model performs a frequency sweep to construct a resonance curve and e
 
 ## Code Repository
 
-[View the full code repository](YOUR-GITHUB-REPOSITORY-URL)
+[View the full code repository](https://github.com/seamus-finn/Virtual-Driven-Oscillator-Laboratory)
