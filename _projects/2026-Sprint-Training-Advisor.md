@@ -9,7 +9,7 @@ technologies:
   - datetime
   - pathlib
   - Rule-based logic
-image: assets/images/resonance_curve.png
+image: assets/images/sprint-training-advisor.png
 ---
 
 ## Overview
